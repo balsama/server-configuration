@@ -34,10 +34,10 @@ Select the following:
   > Leave blank (delete auto-populated value).
 
 * Mailbox size limit (bytes):
-  > `0` (Unless you have a good reason to impose a limit)
+  > <kbd>0</kbd> (Unless you have a good reason to impose a limit)
 
 * Local address extension character:
-  > `+`
+  > <kbd>+</kbd>
 
 * Internet protocols to use:
   > all
