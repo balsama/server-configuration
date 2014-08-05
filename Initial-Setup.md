@@ -103,7 +103,7 @@ Configure Fail2Ban:
     $ sudo vi /etc/fail2ban/jail.local
 
 > Set “enabled” to “true” in the [ssh-ddos] section.
-> *Also, set "port" to whatever you chose earlier if you changes it from 22*
+> *Also, set "port" to whatever you chose earlier if you changed it from 22*
 
 Restart Fail2Ban:
 
