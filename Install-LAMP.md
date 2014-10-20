@@ -70,9 +70,9 @@ Install git:
 
     $ sudo aptitude install git
 
-Install SVN:
+Install Drush:
 
-    $ sudo aptitude install subversion
+    $ sudo aptitude install drush
 
 Install postfix 
 
