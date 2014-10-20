@@ -55,7 +55,8 @@ Install PHP GD
 Install Pear and PECL for file upload progress
 
     $ sudo aptitude install php5-dev
-    $ sudo aptitude install uploadprogress
+    $ sudo aptitude install php-pear
+    $ sudo pecl install uploadprogress
 
 > Add the upload progress extension to php configuration
 
