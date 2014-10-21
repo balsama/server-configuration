@@ -70,7 +70,7 @@ Add the following lines below `extension=apc.so`:
 
     apc.enabled=1
     apc.shm_segments=1
-    apc.shm_size=512
+    apc.shm_size=512M
     apc.cache_by_default=1
     apc.stat=0
     apc.ttl=0
@@ -89,7 +89,7 @@ pages - including /admin/build/modules etc for Drupal apps.
 Once you're done loading all of the PHP scripts, visit the APC Info page, which
 should be accesible at http://yourdomain.com/apc.php if you properly configured
 the symlink earlier. Take note of the Used Memory value. You'll want to set the
-`apc.shm_size` value (previously set to `512`) to someting higher than Used
+`apc.shm_size` value (previously set to `512M`) to someting higher than Used
 Memory value in APC. For example, if Used Memory is is 86.8M, you should set 
 your `apc.shm_size` to something like `96M`.
 
